@@ -3,7 +3,11 @@
 import { Formio } from "./Formio";
 
 function App() {
-  return <Formio />;
+  return (
+    <>
+      <Formio />
+    </>
+  );
 }
 
 export default App;

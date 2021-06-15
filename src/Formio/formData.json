@@ -26,6 +26,9 @@
       "delimiter": false,
       "requireDecimal": false,
       "inputFormat": "plain",
+      "validate": {
+        "required": true
+      },
       "key": "idade",
       "type": "number",
       "input": true
@@ -38,6 +41,21 @@
       "tableView": true,
       "key": "faleSobreVoce",
       "type": "textarea",
+      "input": true
+    },
+    {
+      "label": "teste",
+      "tableView": false,
+      "key": "teste",
+      "type": "checkbox",
+      "input": true,
+      "defaultValue": false
+    },
+    {
+      "label": "Email",
+      "tableView": true,
+      "key": "email",
+      "type": "email",
       "input": true
     },
     {
