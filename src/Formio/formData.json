@@ -1,0 +1,52 @@
+{
+  "display": "form",
+  "settings": {
+    "pdf": {
+      "id": "1ec0f8ee-6685-5d98-a847-26f67b67d6f0",
+      "src": "https://files.form.io/pdf/5692b91fd1028f01000407e3/file/1ec0f8ee-6685-5d98-a847-26f67b67d6f0"
+    }
+  },
+  "components": [
+    {
+      "label": "Nome",
+      "placeholder": "Seu nome aqui",
+      "description": "é um campo de nome",
+      "tooltip": "Coloca seu nome aqui vey",
+      "tableView": true,
+      "key": "nome",
+      "type": "textfield",
+      "input": true
+    },
+    {
+      "label": "Idade",
+      "placeholder": "Sua Idade aqui",
+      "tooltip": "Aqui fica sua idade",
+      "mask": false,
+      "tableView": false,
+      "delimiter": false,
+      "requireDecimal": false,
+      "inputFormat": "plain",
+      "key": "idade",
+      "type": "number",
+      "input": true
+    },
+    {
+      "label": "Fale sobre voce",
+      "placeholder": "fala ae",
+      "description": "Só falar",
+      "autoExpand": false,
+      "tableView": true,
+      "key": "faleSobreVoce",
+      "type": "textarea",
+      "input": true
+    },
+    {
+      "type": "button",
+      "label": "Submit",
+      "key": "submit",
+      "disableOnInvalid": true,
+      "input": true,
+      "tableView": false
+    }
+  ]
+}
