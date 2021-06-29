@@ -1,11 +1,13 @@
 // @ts-ignore
 
-import { Formio } from "./Formio";
+import { FormBuilder } from "./FormBuilder";
+import { FormView } from "./FormView";
 
 function App() {
   return (
     <>
-      <Formio />
+      <FormBuilder />
+      {/* <FormView /> */}
     </>
   );
 }

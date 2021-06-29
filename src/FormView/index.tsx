@@ -3,7 +3,7 @@ import { Form } from "react-formio";
 import formData from "./formData.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export function Formio() {
+export function FormView() {
   return (
     <div style={{ padding: 20 }}>
       <Form
