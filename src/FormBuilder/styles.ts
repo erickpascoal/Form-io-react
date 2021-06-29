@@ -28,7 +28,7 @@ export const Container = styled.div`
 
   .formcomponents {
     width: 100%;
-    max-width: 100%
+    max-width: 100%;
     padding-top: 2rem;
     padding-left: 1.5rem;
     margin-right: 1rem;
