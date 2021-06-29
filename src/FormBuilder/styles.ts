@@ -17,6 +17,9 @@ export const Container = styled.div`
   }
 
   .formbuilder {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 346px 1fr;
     /* display: flex; */
     /* flex-wrap: nowrap; */
   }
@@ -25,7 +28,7 @@ export const Container = styled.div`
 
   .formcomponents {
     width: 100%;
-    max-width: 24%;
+    max-width: 100%
     padding-top: 2rem;
     padding-left: 1.5rem;
     margin-right: 1rem;
@@ -73,11 +76,10 @@ export const Container = styled.div`
   /* =============================== area drag and drop  ============================ */
 
   .col-md-10 {
-    width: 74.5%;
+    width: 100%;
   }
   .drag-container,
   .drag-container:hover {
-    margin-top: 2rem;
     margin-right: 1rem;
     padding: 24px 24px;
     border-radius: 6px;
